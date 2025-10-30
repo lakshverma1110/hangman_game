@@ -1,16 +1,23 @@
-# hangman_game
+Hangman Game (Flutter)
 
-A new Flutter project.
+A classic Hangman game built with Flutter. Play in your browser via GitHub Pages or on mobile devices.
 
-## Getting Started
+Features
 
-This project is a starting point for a Flutter application.
+Shows word progress and wrong guesses left.
 
-A few resources to get you started if this is your first Flutter project:
+Correct letters revealed in all positions.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Random word for each game.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Play again option after win or loss.
+
+Demo
+
+Play Online
+
+Run Locally
+git clone https://github.com/lakshverma1110/hangman_game.git
+cd hangman_game
+flutter pub get
+flutter run -d chrome
